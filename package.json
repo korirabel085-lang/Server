@@ -1,0 +1,15 @@
+{
+  "name": "payhero-stk-server",
+  "version": "1.0.0",
+  "description": "PayHero STK Push Node Server",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "payhero-wrapper": "^1.0.21"
+  }
+}
